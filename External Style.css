@@ -1,0 +1,86 @@
+body{
+    background: radial-gradient( #2c2c2c, #1e1e1e);
+    font-family: "DejaVu Sans";
+
+}
+h1{ color: white;
+    text-align: center;
+    background-color: #0000ff;
+    border-radius: 10px;
+    background: linear-gradient(black, #424242);
+    box-shadow: 0px 5px 5px;
+
+}
+
+h2{ color: #cbcbcb;
+    text-align: center;
+    background-color: #3c81ff;
+    border-radius: 10px;
+    transition: background-color 1.0s ease-in;
+    transition: background 0.8s ease-in;
+}
+h2:hover{
+    background: linear-gradient(to right, red,blue);
+}
+p{  text-justify: distribute;
+    color: #000000;
+}
+fieldset{
+    border-radius: 10px;
+    border-top-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-right-style: inset;
+    box-shadow: 0px 5px 10px;
+    width: 200px;
+    transition: width 0.2s ease-in;
+
+}
+fieldset:hover{
+    width: 300px;
+}
+section{
+    padding: 5px 5px 5px 5px;
+    transition: padding 0.2s  ease-in;
+}
+section:hover{
+    padding: 15px 15px 15px 15px ;
+}
+img{
+    border-radius: 15px;
+    background-color: black;
+    box-shadow: 0px 5px 10px;
+    padding: 5px 5px 5px 5px;
+    transition: padding 0.2s ease-in;
+    transition: background-color 0.5s ease-in;
+}
+img:hover{
+    padding: 10px 10px 10px 10px;
+    background-color: #ff0000;
+}
+div{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    background: radial-gradient( #131313, #000000);
+    transition: background 1.0s ease-in;
+
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+    background: linear-gradient(to right, black, #373737);
+    transition: background 1.0s ease-in;
+    transition: color 0.20s ease-in;
+    padding: 3px 3px 3px 3px;
+    transition: padding 0.1s ease-in;
+
+}
+nav ul li a:hover{
+    background: linear-gradient(to right, #013cfd, red);
+    color: white;
+    padding: 8px 8px 8px 8px;
+}
